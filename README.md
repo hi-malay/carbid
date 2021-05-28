@@ -1,6 +1,6 @@
-## Date Picker
+## Car Bind
 
-Demo link: "https://hi-malay.github.io/datePicker/"
+
 
 
 ## Steps to run this repo:
