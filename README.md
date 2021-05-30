@@ -1,7 +1,7 @@
 ## Car Bind
 
 
-Demo Link:  https://hi-malay.github.io/carbid/
+Demo Link:  https://hi-malay.github.io/carbid
 
 ## Steps to run this repo:
 1. git clone link 
