@@ -36,6 +36,11 @@ class PartnerReferral extends React.Component<any,
 
     showModal = (eve: any, data: any) => {
         { console.log("modaldata", data) }
+        ReactGA.event({
+            category: `Modal`,
+            action: 'Modal',
+            label: 'Modal Rendered'
+        });
         this.setState({ date_match_modal: true, modalData: data })
     }
     render() {

@@ -26,10 +26,10 @@ class CustomRouter extends React.Component<any, {
     }
     render() {
         return (
-            <Router>
+            <Router basename="/carbid">
                 <Switch>
-                    <PrivateRoute exact path="/home" component={Newwallets} />
-                    <Route exact path="/" component={Login} />
+                    <PrivateRoute path="/home" component={Newwallets} />
+                    <Route path="/login" component={Login} />
                 </Switch>
             </Router>
         );
