@@ -18,7 +18,7 @@ const Privateroute = withRouter((props: any) => {
 
     const validationDynamic = () => {
         localStorage.removeItem("Login");
-        props.history.push('/')
+        props.history.push('/login')
     }
 
     console.log("pp", state.isValid[1])
