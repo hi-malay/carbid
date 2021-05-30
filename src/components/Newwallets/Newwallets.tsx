@@ -64,7 +64,7 @@ class PartnerReferral extends React.Component<any,
         return (
             <div className="max-width-in">
 
-                <CustomTable options={
+                <CustomTable className="mt-3" options={
                     {
                         paginationType: "stepped",
                         search: true,
@@ -117,8 +117,11 @@ class PartnerReferral extends React.Component<any,
                         <h3 className="modal-title">Fetching</h3>
                         : <>
                             <h3 className="modal-title">{this.state.modalData.name}</h3>
-                            <img src={this.state.modalData.avatar} alt="icon" />
-                            <CustomTable options={
+                            <div className="mb-3 person-icon" >
+
+                                <img src={this.state.modalData.avtar} alt="icon" />
+                            </div>
+                            <CustomTable className="mt-3" options={
                                 {
                                     paginationType: "stepped",
                                     search: true,

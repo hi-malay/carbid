@@ -17,6 +17,11 @@
     text-transform: none;
 }
 
+.person-icon {
+    width: 200px;
+    margin: 0 auto;
+}
+
 .header-main {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
